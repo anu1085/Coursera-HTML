@@ -1,0 +1,94 @@
+body{
+	font-family: 'Oxygen', sans-serif;
+	background-color: #AB0615;
+}
+#navbar-header{
+	background-color: #E3EE40;
+}
+#navbar-brand a h1,#navbar-brand a{
+	margin-top: 0;
+	margin-bottom:0;
+	text-decoration: none;
+	color:#000000;
+
+}
+#nav-list p{
+	text-align: center;
+	color: #AB0615;
+}
+#menu-tile{
+	color:black;
+
+}
+#menu-content #section1{
+	font-size: 1.5em;
+	color: black;
+	background-color: #FFA07A;
+	border: 2px solid black;
+	padding-bottom: 30px;
+}
+#section1 div a{
+	text-align: right;
+	font-size: 0.8em;
+	color: Red;
+}
+#menu-content #section2{
+	font-size: 1.5em;
+	color: black;
+	background-color: #FFA07A;
+	border: 2px solid black;
+	padding-bottom: 30px;
+}
+#section2 div a{
+	text-align: right;
+	font-size: 0.8em;
+	color: Red;
+}
+#menu-content #section3{
+	font-size: 1.5em;
+	color: black;
+	background-color: #FFA07A;
+	border: 2px solid black;
+	padding-bottom: 30px;
+}
+#section3 div a{
+	text-align: right;
+	font-size: 0.8em;
+	color: Red;
+}
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #navbar-collapse-1{
+	background-color: #DAF7A6;
+	border: 2px solid #FFC300;
+
+}
+#nav-list p:hover{
+	color:#000;
+	
+}
+
+}
